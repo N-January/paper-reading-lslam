@@ -64,7 +64,7 @@ X-Y-Z分别对应lidar的Front-Left-Up。一些简单的公式计算：
 
 由于非重复式扫描，提取的特征不能够被持续跟踪。本文提出了迭代位姿优化的方法，可以实现20Hz的实时定位和建图。
 
-<img src="/home/tusimple/N-January/paper-reading-lslam/pictures/loam_livox_3.png" alt="loam_livox_3" style="zoom:75%;" />
+<img src="../..//pictures/loam_livox_3.png" alt="loam_livox_3" style="zoom:75%;" />
 
 ### Residual of edge-to-edge
 
