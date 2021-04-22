@@ -31,7 +31,7 @@
 
 整个系统的框图如下，前端进行点的选择和特征提取，考虑一些例如激光点尺寸、信噪比等雷达物理特性。
 
-![loam_livox_1](../../pictures/loam_livox_1.png)
+![loam_livox_1](pictures/loam_livox_1.png)
 
 ### Points selection
 
@@ -47,7 +47,7 @@ X-Y-Z分别对应lidar的Front-Left-Up。一些简单的公式计算：
 
 关于入射角的示意图如下(注：X-Y-Z方向有误)。
 
-<img src="../../pictures/loam_livox_2.png" alt="loam_livox_2" style="zoom:50%;" />
+<img src="pictures/loam_livox_2.png" alt="loam_livox_2" style="zoom:50%;" />
 
 对于关键点的定义：
 
@@ -64,7 +64,7 @@ X-Y-Z分别对应lidar的Front-Left-Up。一些简单的公式计算：
 
 由于非重复式扫描，提取的特征不能够被持续跟踪。本文提出了迭代位姿优化的方法，可以实现20Hz的实时定位和建图。
 
-<img src="../..//pictures/loam_livox_3.png" alt="loam_livox_3" style="zoom:75%;" />
+<img src="pictures/loam_livox_3.png" alt="loam_livox_3" style="zoom:75%;" />
 
 ### Residual of edge-to-edge
 
